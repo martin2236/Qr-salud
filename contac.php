@@ -12,7 +12,7 @@ $message = ($_POST['message']);
 
 $to = "martoxxx100@gmail.com"; 
 $subject = "$m_subject:  $name";
-$body = "recibiste un nuevo email desde la pagina de Fácil Soft.\r\n"."detalles:\n\nName: $name\r\n\nEmail: $email\r\nSubject: $m_subject\r\nMessage: $message";
+$body = "recibiste un nuevo email desde la pagina de Qr-salud.\r\n"."detalles:\n\nName: $name\r\n\nEmail: $email\r\nSubject: $m_subject\r\nMessage: $message";
 
 
 
@@ -21,8 +21,8 @@ $body = "recibiste un nuevo email desde la pagina de Fácil Soft.\r\n"."detalles
 if(mail($to, $subject, $body)){
 
   $to = ($_POST['email']);
-  $subject = 'Fácil soft';
-  $body = "hola ".$name."te comunicaste con Fácil soft, en breve nos pondremos en contacto con vos. ";
+  $subject = 'Qr-salud';
+  $body = "hola ".$name."te comunicaste con Qr-dalud, en breve nos pondremos en contacto con vos. ";
 
 
 }else{
