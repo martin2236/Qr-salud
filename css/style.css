@@ -382,10 +382,9 @@ a:focus {
 
 .carousel .carousel-text h3 {
     color: #66852f;
-    font-size: 20px;
+    font-size: 50px !important;
     font-weight: 700;
     letter-spacing: 4px;
-    text-transform: uppercase;
     margin-bottom: 0px;
 }
 

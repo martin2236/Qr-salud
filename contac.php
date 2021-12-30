@@ -10,7 +10,7 @@ $email = ($_POST['email']);
 $m_subject = ($_POST['subject']);
 $message = ($_POST['message']);
 
-$to = "martoxxx100@gmail.com"; 
+$to = "consultas@qrsalud.com.ar"; 
 $subject = "$m_subject:  $name";
 $body = "recibiste un nuevo email desde la pagina de Qr-salud.\r\n"."detalles:\n\nName: $name\r\n\nEmail: $email\r\nSubject: $m_subject\r\nMessage: $message";
 
